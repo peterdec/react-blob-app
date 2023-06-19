@@ -1,0 +1,13 @@
+[Unit]
+Description=React App Starta
+
+[Service]
+ExecStart=/usr/bin/npm run start
+WorkingDirectory=/usr/lib/node_modules/react-app-blob
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=my-react-app-blob
+
+[Install]
+WantedBy=multi-user.target
