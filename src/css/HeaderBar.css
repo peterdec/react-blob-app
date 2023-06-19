@@ -1,0 +1,57 @@
+
+.HeaderBar {
+    display: flex;
+    width: 100%;
+    background: black;
+    height: 8vh;
+    align-items: center;
+
+}
+
+.HeaderSurgeon {
+    color: white;
+    padding-left: 1vw;
+    display: flex;
+    padding-right: 0;
+    width: 18vw;
+    justify-content: left;
+}
+
+.HeaderSurgeonName {
+    color: white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+}
+
+.HeaderSurgery {
+    display: flex;
+    width: 18vw;
+    padding-left: 2vw;
+}
+
+.HeaderSurgeryType {
+    color: white;
+
+    justify-self: left;
+    padding-right: 1vw;
+
+}
+
+.HeaderDeviceStatus {
+    display: flex;
+    color: white;
+    width: 14%;
+    margin-left: auto;
+
+}
+
+.HeaderDeviceStatusCircle {
+    padding-right: 1.5vw;
+    width: 2vw;
+}
+
+.HeaderSettingsCog {
+    width: 3%;
+    padding: 2%;
+}
